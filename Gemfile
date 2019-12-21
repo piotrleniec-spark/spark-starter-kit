@@ -86,6 +86,7 @@ end
 group :production do
   gem 'rack-timeout'
   gem 'font_assets'
+  gem 'activerecord-nulldb-adapter'
 end
 
 # file uploades & assets
